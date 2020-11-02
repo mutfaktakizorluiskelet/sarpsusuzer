@@ -2,14 +2,15 @@
 <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
 <!-- include ar.js for A-Frame -->
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<script src="https://rawgit.com/chenzlabs/aframe-ar/827e9db/dist/aframe-ar.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
 <!-- define your gltf asset -->
 <a-assets>
-  <a-asset-item id="tree" src="https://raw.githubusercontent.com/sarpsusuzer/sarpsusuzer/main/scene.gltf"></a-asset-item>
+  <a-asset id="cesium-man" src="CesiumMan.glb"></a-asset>
 </a-assets>
 <!-- use your gltf model -->
-<a-entity gltf-model="#tree" position='0 0.5 0' scale="1 1 1"></a-entity> 
+<a-entity id="walker" gltf-model="#cesium-man" position="0 0 -5" scale="0.5 0.5 0.5"> </a-entity> 
     <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
     <!-- define a camera which will move according to the marker position -->
     <a-marker-camera preset='hiro'></a-marker-camera>
