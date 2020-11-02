@@ -3,15 +3,9 @@
 <!-- include ar.js for A-Frame -->
 <script src="https://sarpsusuzer.github.io/sarpsusuzer/AR.js/aframe/build/aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
-  <a-assets>
-    <a-asset-item id="mic" src="https://sarpsusuzer.github.io/sarpsusuzer/3Dfiles/scene2.gltf"></a-asset-item>
-  </a-assets>
   <a-scene embedded arjs>
     <!-- create your content here. just a box for now -->
-    <!-- define your gltf asset -->
-
-<!-- use your gltf model -->
-<a-entity gltf-model="#mic"></a-entity>
+    <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
     <!-- define a camera which will move according to the marker position -->
     <a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
