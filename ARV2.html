@@ -5,34 +5,6 @@
 <!-- include ar.js for A-Frame -->
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
-    <!-- style for the loader -->
-    <style>
-      .arjs-loader {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        z-index: 9999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .arjs-loader div {
-        text-align: center;
-        font-size: 1.25em;
-        color: white;
-      }
-    </style>
-  </head>
-
-  <body style="margin : 0px; overflow: hidden;">
-    <!-- minimal loader shown until image descriptors are loaded. Loading may take a while according to the device computational power -->
-    <div class="arjs-loader">
-      <div>Bekle ABG.</div>
-    </div>
 
     <!-- a-frame scene -->
     <a-scene
