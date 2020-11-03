@@ -16,9 +16,7 @@
             <a-asset-item id="knob" src="https://raw.githubusercontent.com/sarpsusuzer/sarpsusuzer/main/knob.glb"></a-asset-item>
         </a-assets>
 
-        <a-marker type='barcode' value='2'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
-        </a-marker>
+     
 
         <a-marker id="animated-marker" type='barcode' value='1'>
             <a-entity
@@ -28,7 +26,7 @@
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
-        <a-entity camera></a-entity>
+        <a-marker camera></a-marker>
         </a-scene>
     </body>
 </html>
