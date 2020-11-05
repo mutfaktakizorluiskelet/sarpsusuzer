@@ -42,7 +42,8 @@
   <body style="margin : 0px; overflow: hidden;"></body>
 
    
-    <a-scene embedded arjs renderer="logarithmicDepthBuffer: true">
+    <a-scene renderer="colorManagement: true; sortobjects: true; physicallyCorrectLights: true; precesion: high; alpha: true; sortObjects: true"
+    embedded arjs renderer="logarithmicDepthBuffer: true">
         <a-marker type='pattern' url='https://raw.githubusercontent.com/sarpsusuzer/sarpsusuzer/main/MarkerV4.patt'smooth="true" smoothCount="8" smoothTolerance="0.01" smoothThreshold="3" >
       <a-entity
           position="0 0 0"
