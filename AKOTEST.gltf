@@ -227,34 +227,6 @@
         {
             "bufferView": 24,
             "componentType": 5126,
-            "count": 36,
-            "max": [
-                562.2324829101562,
-                21.1617431640625,
-                41.5355224609375
-            ],
-            "min": [
-                112.23287963867188,
-                16.8721923828125,
-                -878.4656982421875
-            ],
-            "type": "VEC3"
-        },
-        {
-            "bufferView": 25,
-            "componentType": 5126,
-            "count": 36,
-            "type": "VEC3"
-        },
-        {
-            "bufferView": 26,
-            "componentType": 5125,
-            "count": 102,
-            "type": "SCALAR"
-        },
-        {
-            "bufferView": 27,
-            "componentType": 5126,
             "count": 37,
             "max": [
                 512.2326049804688,
@@ -269,19 +241,19 @@
             "type": "VEC3"
         },
         {
-            "bufferView": 28,
+            "bufferView": 25,
             "componentType": 5126,
             "count": 37,
             "type": "VEC3"
         },
         {
-            "bufferView": 29,
+            "bufferView": 26,
             "componentType": 5126,
             "count": 37,
             "type": "VEC2"
         },
         {
-            "bufferView": 30,
+            "bufferView": 27,
             "componentType": 5125,
             "count": 105,
             "type": "SCALAR"
@@ -430,49 +402,32 @@
         },
         {
             "buffer": 0,
-            "byteLength": 432,
+            "byteLength": 444,
             "byteOffset": 764436,
             "byteStride": 12
         },
         {
             "buffer": 0,
-            "byteLength": 432,
-            "byteOffset": 764868,
-            "byteStride": 12
-        },
-        {
-            "buffer": 0,
-            "byteLength": 408,
-            "byteOffset": 765300
-        },
-        {
-            "buffer": 0,
             "byteLength": 444,
-            "byteOffset": 765708,
-            "byteStride": 12
-        },
-        {
-            "buffer": 0,
-            "byteLength": 444,
-            "byteOffset": 766152,
+            "byteOffset": 764880,
             "byteStride": 12
         },
         {
             "buffer": 0,
             "byteLength": 296,
-            "byteOffset": 766596,
+            "byteOffset": 765324,
             "byteStride": 8
         },
         {
             "buffer": 0,
             "byteLength": 420,
-            "byteOffset": 766892
+            "byteOffset": 765620
         }
     ],
     "buffers": [
         {
-            "byteLength": 767312,
-            "uri": "AKOTEST resources 9/AKOTEST.bin"
+            "byteLength": 766040,
+            "uri": "AKOTEST resources 10/AKOTEST.bin"
         }
     ],
     "cameras": [
@@ -481,8 +436,8 @@
             "perspective": {
                 "aspectRatio": 1,
                 "yfov": 0.6911111421110921,
-                "zfar": 4579.2587890625,
-                "znear": 3458.583984375
+                "zfar": 3267.802001953125,
+                "znear": 1441.2227783203125
             },
             "type": "perspective"
         },
@@ -529,7 +484,7 @@
     ],
     "images": [
         {
-            "uri": "AKOTEST resources 9/KS_AKO.png"
+            "uri": "AKOTEST resources 10/KS_AKO.png"
         }
     ],
     "materials": [
@@ -637,19 +592,6 @@
                 ],
                 "metallicFactor": 0,
                 "roughnessFactor": 0.2
-            }
-        },
-        {
-            "doubleSided": true,
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "metallicFactor": 0,
-                "roughnessFactor": 0.5750000029802322
             }
         },
         {
@@ -777,30 +719,16 @@
             ]
         },
         {
-            "name": "Layer 01-mesh",
-            "primitives": [
-                {
-                    "attributes": {
-                        "NORMAL": 25,
-                        "POSITION": 24
-                    },
-                    "indices": 26,
-                    "material": 8,
-                    "mode": 4
-                }
-            ]
-        },
-        {
             "name": "Layer 04-mesh",
             "primitives": [
                 {
                     "attributes": {
-                        "NORMAL": 28,
-                        "POSITION": 27,
-                        "TEXCOORD_0": 29
+                        "NORMAL": 25,
+                        "POSITION": 24,
+                        "TEXCOORD_0": 26
                     },
-                    "indices": 30,
-                    "material": 9,
+                    "indices": 27,
+                    "material": 8,
                     "mode": 4
                 }
             ]
@@ -810,21 +738,21 @@
         {
             "camera": 0,
             "matrix": [
-                0.6050026287468402,
-                2.5655804591906417e-08,
-                -0.7962234342519015,
+                0.773535317593641,
+                2.5305538997599797e-08,
+                -0.6337531538192849,
                 0,
-                -0.6839386846750285,
-                0.5120119085316823,
-                -0.5196841378861776,
+                -0.38152043293579463,
+                0.7984948113228093,
+                -0.46566949178017863,
                 0,
-                0.4076758921146393,
-                0.8589783310890198,
-                0.30976858735084534,
+                0.5060486197471619,
+                0.6020016074180603,
+                0.6176639795303345,
                 0,
-                1832.548828125,
-                3708.417724609375,
-                1360.433837890625,
+                1589.010009765625,
+                1681.7410888671875,
+                1841.6834716796875,
                 1
             ],
             "name": "active"
@@ -974,21 +902,11 @@
         },
         {
             "mesh": 8,
-            "name": "Layer 01"
-        },
-        {
-            "children": [
-                16
-            ],
-            "name": "Layer 01"
-        },
-        {
-            "mesh": 9,
             "name": "Layer 04"
         },
         {
             "children": [
-                18
+                16
             ],
             "name": "Layer 04"
         },
@@ -997,8 +915,7 @@
                 6,
                 13,
                 15,
-                17,
-                19
+                17
             ],
             "matrix": [
                 1,
@@ -1022,7 +939,7 @@
         },
         {
             "children": [
-                20
+                18
             ],
             "matrix": [
                 0.0010000000474974513,
@@ -1061,7 +978,7 @@
                 2,
                 3,
                 4,
-                21
+                19
             ]
         }
     ],
